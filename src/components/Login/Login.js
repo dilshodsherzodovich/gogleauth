@@ -18,7 +18,7 @@ function Login({ handleClick }) {
             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Sign in to your account
             </h1>
-            <form class="space-y-4 md:space-y-6" action="#">
+            <div class="space-y-4 md:space-y-6">
               <div>
                 <label
                   for="email"
@@ -98,7 +98,7 @@ function Login({ handleClick }) {
                   Sign up
                 </a>
               </p>
-            </form>
+            </div>
           </div>
         </div>
       </div>
